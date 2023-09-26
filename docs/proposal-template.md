@@ -1,23 +1,23 @@
-Team name:
+Team name:F4
 
-Team members:
+Team members:Avinash,Hari,Venkatesh,Bharath
 
 # Introduction
-
-(In 2-4 paragraphs, describe your project concept)
+The goal of our project, the "Optimized Team Maker", is to create a computer program that helps organizations put together the best teams for their projects or tasks. We want to make sure that teams are made up of the right people with the right skills, so they can work together effectively and achieve their goals
 
 # Anticipated Technologies
 
-(What technologies are needed to build this project)
+Python,Talend Data Integration,HTML,CSS.
 
 # Method/Approach
 
-(What is your estimated "plan of attack" for developing this project)
+We have an idea to create a google form to collect the fullon details of student in terms of technical skills and IT experience and then with the help of above
+technologies we will fetch the optimised team out of the members.
+
 
 # Estimated Timeline
 
-(Figure out what your major milestones for this project will be, including how long you anticipate it *may* take to reach that point)
-
+Providing ETA would be taking almost 2 months with proper documentation.
 # Anticipated Problems
 
-(Describe any problems you foresee that you will need to overcome)
+Exceptions like if someone not interested to form a team and many more to explore.
