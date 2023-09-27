@@ -1,13 +1,17 @@
 # F4
 
-Project description (~1 paragraph)
+The goal of our project, the "Optimized Team Maker", is to create a computer program that helps organizations put together the best teams for their projects or tasks. We want to make sure that teams are made up of the right people with the right skills, so they can work together effectively and achieve their goals
 
 ## Team Members and Roles
 
-* [AVINASH PONNADA](https://github.com/A835698/CIS641-HW2-PONNADA) (ETL developer,MSSql Developer)
-* Member 2 (Role 3, Role 4)
+* [Avinash Ponnada](https://github.com/A835698/CIS641-HW2-PONNADA) (ETl,SQL-Developer,Frontend-Developer)
+* [Venkateswarlu Ravulapalli](https://github.com/venkateswarlu9502/CIS641-HW2-Ravulapalli) (Frontend-Developer)
 * Member 3 (Role 5, Role 6)
 
 ## Prerequisites
-
+software requirements: Pycharm,Talend open Studio,MS-Excel,Visual-Studio.
 ## Run Instructions
+- Get Google Form ready(where we get all in and out details of students)
+- Extract the excel
+- Filter teams
+- Automated mail generation to respected team members
