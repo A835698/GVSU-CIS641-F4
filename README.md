@@ -7,7 +7,7 @@ The goal of our project, the "Optimized Team Maker", is to create a computer pro
 * [Avinash Ponnada](https://github.com/A835698/CIS641-HW2-PONNADA) (ETl,SQL-Developer,Frontend-Developer)
 * [Venkateswarlu Ravulapalli](https://github.com/venkateswarlu9502/CIS641-HW2-Ravulapalli) (Frontend-Developer)
 * [Bharath Reddy Jakkidi](https://github.com/bharathreddyjakkidi/CIS641-HW2-JAKKIDI.git) (Project Manager)
-* [Hari Krishna Kosana](https://github.com/Hari641/CIS641-HW2-Kosana.git)
+* [Hari Krishna Kosana](https://github.com/Hari641/CIS641-HW2-Kosana.git)(Backend Developer)
 
 ## Prerequisites
 software requirements: Pycharm,Talend open Studio,MS-Excel,Visual-Studio.
