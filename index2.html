@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimised Team Maker</title>
+    <style>
+        /* Reset default margin and padding for all elements */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Apply a darker background color and set text color */
+        body {
+            background-color: #333; /* Dark background color */
+            font-family: Arial, sans-serif;
+            color: #fff; /* White text color */
+            text-align: center; /* Center-align the content */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Make the body fill the viewport height */
+        }
+
+        /* Style the heading */
+        h1 {
+            font-size: 36px; /* Increase font size */
+            padding: 20px 0;
+        }
+
+        /* Style the buttons */
+        button {
+            display: block;
+            margin: 20px auto; /* Increase margin for spacing */
+            padding: 15px 30px; /* Increase padding for larger buttons */
+            font-size: 24px; /* Increase font size for buttons */
+            background-color: #007BFF; /* Blue button background color */
+            color: #fff; /* White text color */
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Smooth hover effect */
+        }
+
+        /* Hover effect for the buttons */
+        button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+        /* Style the URL button link */
+        a button {
+            text-decoration: none;
+            display: inline-block;
+            background-color: #28a745; /* Green button background color */
+        }
+
+        /* Style the image */
+        img {
+            width: 300px; /* Increase image width */
+            height: 200px; /* Increase image height */
+            margin: 20px 0; /* Add margin for spacing */
+        }
+    </style>
+</head>
+<body>
+    <h1>OPTIMISED TEAM MAKER</h1>
+
+    <!-- Add your image using the <img> element -->
+    <img src="wp8408224-attack-on-titan-desktop-4k-wallpapers.jpg" alt="Image Description">
+
+    <button id="runButton">CREATE TEAMS</button>
+    <div id="output"></div>
+
+    <script>
+        document.getElementById('runButton').addEventListener('click', function () {
+            // Send a POST request to the server
+            fetch('/run_code', {
+                method: 'POST',
+            })
+            .then(response => response.json())
+            .then(result => {
+                document.getElementById('output').innerText = result.join('\n');
+            })
+            .catch(error => console.error('Error:', error));
+        });
+    </script>
+
+    <a href="https://forms.gle/Ci5Jf2v3ECY1aF8X7" target="_blank"><button>ADD DETAILS</button></a>
+</body>
+</html>
