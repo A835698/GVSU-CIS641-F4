@@ -7,7 +7,7 @@ This document outlines the requirements for the "Optimized Team Maker" project, 
 ## Functional Requirements
 
 1. **User-friendly On-boarding Process**
-    - Functional Requirement 1: The system shall feature a user-friendly on-boarding process allowing team members to easily set up their account and input their details.
+    1- Functional Requirement 1: The system shall feature a user-friendly on-boarding process allowing team members to easily set up their account and input their details.
    
 2. **Optimal Team Compositions**
     - Functional Requirement 2: The system with our algorithm shall analyze individual team members' skills, experiences, and historical performance to suggest optimal team compositions.
