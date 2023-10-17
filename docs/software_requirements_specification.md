@@ -8,6 +8,7 @@ This document outlines the requirements for the "Optimized Team Maker" project, 
 
 1. **User-friendly On-boarding Process**
     1. The system shall feature a user-friendly on-boarding process allowing team members to easily set up their account and input their details.
+    2. fghfds
 
 2. **Optimal Team Compositions**
     1. The system with our algorithm shall analyze individual team members' skills, experiences, and historical performance to suggest optimal team compositions.
