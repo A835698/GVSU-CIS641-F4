@@ -13,7 +13,7 @@ This document outlines the requirements for the "Optimized Team Maker" project, 
     1. The system with our algorithm shall analyze individual team members' skills, experiences, and historical performance to suggest optimal team compositions.
 
 3. **Manual Team Adjustments**
-    11. The "Optimized Team Maker" shall support manual team adjustments, enabling team members to override algorithmic suggestions based on personal insights and considerations.
+    1. The "Optimized Team Maker" shall support manual team adjustments, enabling team members to override algorithmic suggestions based on personal insights and considerations.
 
 4. **Detailed Team Reports**
     1. The system shall generate detailed reports of teams so that everyone can know other team details.
