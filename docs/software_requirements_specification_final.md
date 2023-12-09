@@ -1,104 +1,137 @@
-# Functional Requirements
+# Overview
+This document outlines the software requirements for the "Optimized Team Maker" system. It covers both functional and non-functional requirements to provide a comprehensive understanding of the project's scope and features.
 
-## Admin Authentication
-1. **Requirement:** The system should allow Admins to log in.
-2. **Requirement:** Admins must use unique usernames.
-3. **Requirement:** Passwords must be securely stored and hashed.
-4. **Requirement:** Lockout after failed login attempts.
-5. **Requirement:** Admins should reset passwords when needed.
+# Software Requirements
 
-## Team Creation and Management
-6. **Requirement:** Teams must be linked to a project.
-7. **Requirement:** Each team must have a unique name within a project.
-8. **Requirement:** Add or remove team members.
-9. **Requirement:** Support multiple teams per project.
-10. **Requirement:** Disband teams after project completion.
+## Functional Requirements
 
-## Skill Analysis and Matching
-11. **Requirement:** System analyzes skills of team members.
-12. **Requirement:** Categorize skills by proficiency levels.
-13. **Requirement:** Teams automatically matched based on required skills.
-14. **Requirement:** Prioritize skill diversity within teams.
-15. **Requirement:** Periodic skill analysis.
+### Admin Authentication
+| ID  | Requirement |
+|:---:|:-----------:|
+| FR1 | The system should allow Admins to log in. |
+| FR2 | Admins must use unique usernames. |
+| FR3 | Passwords must be securely stored and hashed. |
+| FR4 | Failed login attempts should trigger account lockout. |
+| FR5 | Admins should be able to reset their passwords. |
 
-## Project Organization
-16. **Requirement:** Projects must have a unique name.
-17. **Requirement:** Organize teams under specific projects.
-18. **Requirement:** Project managers view all teams in their projects.
-19. **Requirement:** Archive or close projects.
-20. **Requirement:** Teams linked to projects.
+### Team Creation and Management
+| ID  | Requirement |
+|:---:|:-----------:|
+| FR6 | Teams must be linked to a specific project. |
+| FR7 | Each team must have a unique name within a project. |
+| FR8 | Add or remove team members. |
+| FR9 | The system should support the creation of multiple teams per project. |
+| FR10 | Teams can be disbanded after project completion. |
 
-## Reporting and Analytics
-21. **Requirement:** System generates reports on team performance.
-22. **Requirement:** Project managers receive notifications for important team events.
-23. **Requirement:** Analytics provide insights into skill utilization.
-24. **Requirement:** Reports should be exportable in common formats (e.g., PDF, CSV).
-25. **Requirement:** Accessible team efficiency metrics.
+### Skill Analysis and Matching
+| ID   | Requirement |
+|:----:|:-----------:|
+| FR11 | The system must analyze the skills of each team member. |
+| FR12 | Skills should be categorized based on proficiency levels. |
+| FR13 | Teams should be automatically matched based on required skills. |
+| FR14 | Matching algorithm should prioritize skill diversity within teams. |
+| FR15 | Skill analysis should be performed periodically. |
 
-## User Notifications
-26. **Requirement:** Users receive notifications for team events.
-27. **Requirement:** Team members notified of additions or removals.
-28. **Requirement:** Project managers alerted for critical team issues.
-29. **Requirement:** Customizable notification preferences.
-30. **Requirement:** Notifications support various channels.
+### Project Organization
+| ID   | Requirement |
+|:----:|:-----------:|
+| FR16 | Projects must have a unique name. |
+| FR17 | Teams should be organized under specific projects. |
+| FR18 | Project managers should view all teams in their projects. |
+| FR19 | Projects can be archived or closed. |
+| FR20 | Teams cannot be created without associating them with a project. |
 
-## Team Communication
-31. **Requirement:** Teams feature built-in chat/messaging.
-32. **Requirement:** Searchable team chat messages.
-33. **Requirement:** Support file attachments in team messages.
-34. **Requirement:** Team members receive chat message notifications.
-35. **Requirement:** Archive team chat history.
+### Reporting and Analytics
+| ID   | Requirement |
+|:----:|:-----------:|
+| FR21 | The system should generate reports on team performance. |
+| FR22 | Project managers receive notifications for important team events. |
+| FR23 | Analytics provide insights into skill utilization. |
+| FR24 | Reports should be exportable in common formats (e.g., PDF, CSV). |
+| FR25 | Accessible team efficiency metrics. |
 
-# Non-Functional Requirements
+### User Notifications
+| ID   | Requirement |
+|:----:|:-----------:|
+| FR26 | Users receive notifications for team events. |
+| FR27 | Team members notified of additions or removals. |
+| FR28 | Project managers alerted for critical team issues. |
+| FR29 | Customizable notification preferences. |
+| FR30 | Notifications support various channels. |
 
-## Performance
-1. **Requirement:** The system must load within 3 seconds.
-2. **Requirement:** Team operations complete within 5 seconds.
-3. **Requirement:** Handles at least 100 concurrent users.
-4. **Requirement:** Real-time skill analysis.
-5. **Requirement:** Reports generated within 10 seconds.
+### Team Communication
+| ID   | Requirement |
+|:----:|:-----------:|
+| FR31 | Teams should have a built-in chat/messaging feature. |
+| FR32 | Searchable team chat messages. |
+| FR33 | Support file attachments in team messages. |
+| FR34 | Team members receive chat message notifications. |
+| FR35 | Archive team chat history. |
 
-## Security
-6. **Requirement:** User passwords securely stored.
-7. **Requirement:** Role-based access control.
-8. **Requirement:** Data transmission encrypted using HTTPS.
-9. **Requirement:** Mechanisms to detect and prevent common security threats.
-10. **Requirement:** Log and monitor user activities.
+## Non-Functional Requirements
 
-## Reliability
-11. **Requirement:** The system should have an uptime of at least 99%.
-12. **Requirement:** Daily data backups.
-13. **Requirement:** Recoverable team data after system failures.
-14. **Requirement:** Helpful error messages.
-15. **Requirement:** Mechanism for detecting and handling unexpected errors.
+### Performance
+| ID   | Requirement |
+|:----:|:-----------:|
+| NFR1 | The system must load within 3 seconds. |
+| NFR2 | Team operations complete within 5 seconds. |
+| NFR3 | Handles at least 100 concurrent users. |
+| NFR4 | Real-time skill analysis. |
+| NFR5 | Reports generated within 10 seconds. |
 
-## Usability
-16. **Requirement:** Intuitive and user-friendly interface.
-17. **Requirement:** Tooltips and help sections for users.
-18. **Requirement:** Users perform common tasks with minimal training.
-19. **Requirement:** Accessible to users with disabilities.
-20. **Requirement:** Support for multiple languages.
+### Security
+| ID   | Requirement |
+|:----:|:-----------:|
+| NFR6 | User passwords securely stored. |
+| NFR7 | The system should implement role-based access control. |
+| NFR8 | Data transmission encrypted using HTTPS. |
+| NFR9 | Mechanisms to detect and prevent common security threats. |
+| NFR10 | Log and monitor user activities. |
 
-## Scalability
-21. **Requirement:** System scales for growing projects and teams.
-22. **Requirement:** Database handles increasing data volume.
-23. **Requirement:** Performance does not degrade with increased load.
-24. **Requirement:** Supports a growing number of concurrent users.
-25. **Requirement:** Easily integrates new features and modules for scalability.
+### Reliability
+| ID   | Requirement |
+|:----:|:-----------:|
+| NFR11 | The system should have an uptime of at least 99%. |
+| NFR12 | Daily data backups. |
+| NFR13 | Recoverable team data after system failures. |
+| NFR14 | Helpful error messages. |
+| NFR15 | Mechanism for detecting and handling unexpected errors. |
 
-## Responsiveness
-26. **Requirement:** Responsive design for desktop, tablet, and mobile.
-27. **Requirement:** Optimized page load times.
-28. **Requirement:** UI elements adapt to different screen sizes.
-29. **Requirement:** Performance testing for responsiveness under varying network conditions.
-30. **Requirement:** Support offline access for certain functionalities.
+### Usability
+| ID   | Requirement |
+|:----:|:-----------:|
+| NFR16 | Intuitive and user-friendly interface. |
+| NFR17 | Tooltips and help sections for users. |
+| NFR18 | Users perform common tasks with minimal training. |
+| NFR19 | Accessible to users with disabilities. |
+| NFR20 | Support for multiple languages. |
 
-## Accessibility
-31. **Requirement:** UI complies with WCAG accessibility standards.
-32. **Requirement:** Accessibility features support screen readers and keyboard navigation.
-33. **Requirement:** Regular accessibility audits and improvements.
-34. **Requirement:** Provide alternative text for images and multimedia elements.
-35. **Requirement:** Usability testing with users of diverse abilities.
+### Scalability
+| ID   | Requirement |
+|:----:|:-----------:|
+| NFR21 | System scales for growing projects and teams. |
+| NFR22 | Database handles increasing data volume. |
+| NFR23 | Performance does not degrade with increased load. |
+| NFR24 | Supports a growing number of concurrent users. |
+| NFR25 | Easily integrates new features and modules for scalability. |
 
-### Additional Note:
+### Responsiveness
+| ID   | Requirement |
+|:----:|:-----------:|
+| NFR26 | Responsive design for desktop, tablet, and mobile. |
+| NFR27 | Optimized page load times. |
+| NFR28 | UI elements adapt to different screen sizes. |
+| NFR29 | Performance testing for responsiveness under varying network conditions. |
+| NFR30 | Support offline access for certain functionalities. |
+
+### Accessibility
+| ID   | Requirement |
+|:----:|:-----------:|
+| NFR31 | UI complies with WCAG accessibility standards. |
+| NFR32 | Accessibility features support screen readers and keyboard navigation. |
+| NFR33 | Regular accessibility audits and improvements. |
+| NFR34 | Provide alternative text for images and multimedia elements. |
+| NFR35 | Usability testing with users of diverse abilities. |
+
+## Additional Note:
 Future implemented requirements are referred from Google and AI prompting.
