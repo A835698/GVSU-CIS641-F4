@@ -11,5 +11,5 @@ The goal of our project, the "Optimized Team Maker", is to create a computer pro
 
 ## Important Links
 
-* [Portfolio]([https://github.com/A835698/CIS641-HW2-PONNADA](https://a835698.github.io/GVSU-CIS641-F4/)https://a835698.github.io/GVSU-CIS641-F4/)
+* [Portfolio](https://a835698.github.io/GVSU-CIS641-F4/)
 * [Final_SRS](https://github.com/A835698/GVSU-CIS641-F4/blob/master/docs/software_requirements_specification_final.md)
