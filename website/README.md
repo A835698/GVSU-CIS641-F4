@@ -16,7 +16,7 @@ The goal of our project, the "Optimized Team Maker", is to create a computer pro
 
 ## Run Instructions
 
-*Go to website click on ADD DETAILS  and fill Google forms.
-*Import Talend Onboarding Job and run it.
-*Go to website and click in CREATE TEAMS , python script will create and download a csv file.
-*Run the send_file.sh from cmd , it wll send an email with attached file to the professor.
+* Go to website click on ADD DETAILS  and fill Google forms.
+* Import Talend Onboarding Job and run it.
+* Go to website and click in CREATE TEAMS , python script will create and download a csv file.
+* Run the send_file.sh from cmd , it wll send an email with attached file to the professor.
